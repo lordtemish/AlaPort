@@ -1,0 +1,341 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dynamica.alaport.Fragment.LuggageLimitFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="@string/limitlug"
+                android:textSize="18sp"
+                android:textColor="#222"
+                android:paddingLeft="30sp"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:paddingRight="80sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView140" />
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingTop="2sp"
+                android:paddingBottom="2sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView21"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Огнестрельное оружие всех видов"
+                    android:textColor="#333"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView21"
+                    android:layout_weight="2" />
+            </LinearLayout><LinearLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView22"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Взрывчатые вещества и предметы, начиненные ими, средства взрывания"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView22"
+                android:layout_weight="2" />
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView23"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Холодное оружие"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView23"
+                android:layout_weight="2" />
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView24"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Радиоактивные вещества"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView24"
+                android:layout_weight="2" />
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView25"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Сжатые и сжиженные газы, боеприпасы к газовому оружию"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView25"
+                android:layout_weight="2" />
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView26"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Легковоспламеняющиеся жидкости"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView26"
+                android:layout_weight="2" />
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView27"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Воспламеняющиеся твердые вещества"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView27"
+                android:layout_weight="2" />
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView28"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Ядовитые и отравляющие вещества"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView28"
+                android:layout_weight="2" />
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView29"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Едкие и коррозирующие вещества"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView29"
+                android:layout_weight="2" />
+        </LinearLayout><LinearLayout
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:paddingRight="50sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/redline"
+                android:layout_gravity="center"
+                android:id="@+id/imageView30"
+                android:layout_weight="20" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:text="Наркотические вещества"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView30"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+            <TextView
+                android:paddingLeft="30sp"
+                android:paddingRight="30sp"
+            android:paddingTop="30sp"
+                android:paddingBottom="30sp"
+                android:text="Убедительная просьба:\n\n- не оставлять багаж и ручную кладь без присмотра,
+- не принимать у посторонних лиц к перевозке багаж
+и ручную кладь, конверты и посылки (так как они могут
+содержать предметы и вещества, запрещенные к
+перевозке на борту воздушного судна.)\n\n
+Лица, виновные в нарушении правил перевозки
+опасных веществ и предметов, привлекаются к
+административной и уголовной ответственности."
+                android:textColor="#222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView141" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

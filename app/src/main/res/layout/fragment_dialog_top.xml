@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/reldialog"
+    android:onClick="arrtrue"
+    android:background="@drawable/transparent"
+    tools:context="com.dynamica.alaport.DialogTopFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/arrs"
+        android:background="@drawable/mybutton"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_above="@+id/deps"
+        android:layout_alignStart="@+id/deps">
+
+      <!--  <Button
+            android:text="@string/arrivalrus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/button5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Прилёты"
+            android:id="@+id/butt"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/whity"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/plandeps"
+            android:id="@+id/imageView12"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/deps"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/whiteutton"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Вылеты"
+            android:id="@+id/but1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20sp"
+            android:textColor="#111"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/planarrivalblue"
+            android:id="@+id/imageView13"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

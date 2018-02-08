@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.Fragment.Sss">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="30sp"
+                android:paddingRight="30sp">
+
+                <TextView
+                    android:text="Автопаркинг"
+                    android:textColor="@color/whity"
+                    android:textSize="17sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33dp"
+                    android:layout_marginTop="17dp"
+                    android:id="@+id/textView92"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="Территория привокзальной площади
+    рассчитана на 261 парковочных  мест
+    \nКрытый автопаркинг – 328 автомашин
+    включая огороженную территорию,
+    прилегающую к автопаркингу.
+    автоматическая система парковки
+    «Modpark», которая состоит из 4 въездных
+    и 7 выездных групп, 6 автоматических
+    кассовых терминалов, программного
+    обеспечения, подсистемы
+    видеоидентификации  и распознавания
+    государственных номеров автомобилей
+    (VISPA) и обзорного видеонаблюдения
+    «Designa-Asytec»"
+                    android:textSize="14sp"
+                    android:textColor="@color/whity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView92"
+                    android:layout_alignStart="@+id/textView92"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/textView101" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

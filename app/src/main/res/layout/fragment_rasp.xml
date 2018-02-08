@@ -1,0 +1,226 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLong"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyy"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.RaspFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/longOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer">
+
+            <TextView
+                android:id="@+id/raspCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="City"
+                android:textColor="@color/whity"
+                android:textSize="17sp" />
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:onClick="CloseDr"
+                android:layout_marginEnd="10sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" >
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/opDr"
+                    android:layout_gravity="center"
+                    android:onClick="CloseDr"
+                    android:background="@drawable/onclose"
+                    />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/backLong"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginLeft="3sp"
+                    android:id="@+id/imageView58"
+                    android:layout_gravity="center"
+                    android:layout_width="14sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/backr" />
+
+                <TextView
+                    android:id="@+id/textView154"
+                    android:layout_marginLeft="5sp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/goodorange"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Расписание" />
+
+            </LinearLayout>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:background="#DDD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rvRasp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/longCities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer">
+
+            <TextView
+                android:id="@+id/raspNamr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/raspisanie"
+                android:textColor="@color/whity"
+                android:textSize="17sp" />
+
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:onClick="CloseDr"
+                android:layout_marginEnd="10sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" >
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/opDr1"
+                    android:layout_gravity="center"
+                    android:onClick="CloseDr"
+                    android:background="@drawable/onclose"
+                    />
+            </FrameLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="@color/blueDrawer"
+                android:ems="10"
+                android:foregroundTint="@color/blueDrawer"
+                android:hint="@string/searchtick"
+                android:inputType="textAutoCorrect"
+                android:imeOptions="actionDone"
+                android:textColor="@color/whity"
+                android:textColorHint="@color/whity"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="20sp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/arrddep"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="13sp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/arrowdown" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:src="@drawable/plandeps"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageView9" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView10"
+                android:layout_marginStart="29dp"
+                android:layout_toEndOf="@+id/imageView9"
+                android:text="@string/arrivalrus"
+                android:textColor="@color/whity"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/recFrame"
+            android:layout_height="match_parent">
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:id="@+id/srl"
+                android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvCity"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+            <fragment
+                android:id="@+id/fragment4"
+                android:name="com.dynamica.alaport.LongChooseDialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <FrameLayout
+                android:id="@+id/frameProg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:id="@+id/progressBar"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</FrameLayout>

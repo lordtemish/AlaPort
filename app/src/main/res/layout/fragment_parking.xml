@@ -1,0 +1,349 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.ParkingFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5sp">
+
+                <TextView
+                    android:text="Стоимость в тенге"
+                    android:textColor="@color/colorPrimary11A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView91"
+                    android:layout_alignBaseline="@+id/textView90"
+                    android:layout_alignBottom="@+id/textView90"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp" />
+
+                <TextView
+                    android:text="Время в часах"
+                    android:textColor="@color/colorPrimary11A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView90"
+                    android:layout_below="@+id/textView89"
+                    android:layout_alignStart="@+id/textView89"
+                    android:layout_marginStart="10dp" />
+
+                <TextView
+                    android:text="Тарифы Парковки"
+                    android:textSize="20sp"
+                    android:textColor="@color/whity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="11dp"
+                    android:id="@+id/textView89"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginRight="5sp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/colorPrimary11A" android:layout_marginLeft="40sp" />
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/colorPrimary11A"
+                        android:layout_marginLeft="40sp"
+                        android:textSize="15sp"
+                        android:text="До 15-ти минут"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView122"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:id="@+id/textView123"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="10sp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="Бесплатно"
+                        android:textColor="#fff"
+                        android:textSize="19sp" />
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5sp"
+                    android:background="@color/colorPrimary11A" android:layout_marginLeft="40sp" />
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/colorPrimary11A"
+                        android:layout_marginLeft="40sp"
+                        android:textSize="15sp"
+                        android:text="До 2-х часов"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView93"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView103"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="10sp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="300 тг"
+                        android:textColor="#fff"
+                        android:textSize="19sp" />
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5sp"
+                    android:background="@color/colorPrimary11A" android:layout_marginLeft="40sp" />
+
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/colorPrimary11A"
+                        android:layout_marginLeft="40sp"
+                        android:text="До 4-х часов"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView94"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView104"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="10sp"
+                        android:gravity="end"
+                        android:text="500 тг"
+                        android:textColor="#fff"
+                        android:textSize="19sp" />
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5sp"
+                    android:background="@color/colorPrimary11A" android:layout_marginLeft="40sp" />
+
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/colorPrimary11A"
+                        android:layout_marginLeft="40sp"
+                        android:text="До 6-ти часов"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView98"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView108"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="800 тг"
+                        android:layout_marginEnd="10sp"
+                        android:textColor="#fff"
+                        android:textSize="19sp" />
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5sp"
+                    android:background="@color/colorPrimary11A" android:layout_marginLeft="40sp" />
+
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/colorPrimary11A"
+                        android:layout_marginLeft="40sp"
+                        android:text="До 12 часов"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView97"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView107"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:layout_marginEnd="10sp"
+                        android:text="1 200 тг"
+                        android:textColor="#fff"
+                        android:textSize="19sp" />
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5sp"
+                    android:background="@color/colorPrimary11A" android:layout_marginLeft="40sp" />
+
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/colorPrimary11A"
+                        android:layout_marginLeft="40sp"
+                        android:text="До 24-х часов"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView96"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView106"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:layout_marginEnd="10sp"
+                        android:text="1800 тг"
+                        android:textColor="#fff"
+                        android:textSize="19sp" />
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5sp"
+                    android:background="@color/colorPrimary11A" android:layout_marginLeft="40sp" />
+
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/colorPrimary11A"
+                        android:layout_marginLeft="40sp"
+                        android:text="Свыше 24-х часов"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView95"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView105"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="2000 тг"
+                        android:layout_marginEnd="10sp"
+                        android:textColor="#fff"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190sp"
+                    app:srcCompat="@drawable/parkmach"
+                    android:id="@+id/imageView42" />
+
+                <TextView
+                    android:text="Внимание!"
+                    android:textColor="#222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="61dp"
+                    android:id="@+id/textView99"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_marginTop="50sp"
+                    android:text="Оплату производить только в  кассовых терминалах Парковки."
+                    android:paddingEnd="5sp"
+                    android:layout_width="wrap_content"
+                    android:textColor="#444"
+                    android:textSize="11sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView100"
+                    android:layout_centerVertical="true"
+                    android:layout_alignStart="@+id/textView99" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,285 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.Fragment.MultiModalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/blueDrawer"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="Крупнейший в Средней  Азии мультимодальный  терминал"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:paddingTop="10sp"
+                android:paddingLeft="30sp"
+                android:paddingRight="100sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView120" />
+
+            <TextView
+                android:text="Международный аэропорт Алматы имеет статус хаба – международного транспортно - дистрибьюторского узла, ориентированного на привлечение основных грузовых потоков в направлении Азия – Европа – Азия. В ближайшей перспективе Международный аэропорт Алматы способен развить все достоинства грузового хаба для рынка всего Центрально-Азиатского региона с населением более 60 миллионов человек. В 2007 году Служба Грузовых Перевозок в составе Международного Аэропорта Алматы, получила международный сертификат качества ISO 9001-2000, что соответствует требованиям системы менеджмента качества. Служба Грузовых Перевозок имеет квалифицированный персонал, прошедший международный тренинг и имеющий сертификаты на оформление опасных грузов и паллетайзинг.\n\nОбщая территория существующего грузового терминала в Международном аэропорту Алматы составляет 28 000 кв.м., в том числе склады временного хранения и территория транзитно-трансферной зоны. В терминале существуют специально выделенные места для хранения опасных грузов, крытые помещения для крупногабаритных грузов, сейф для хранения ценных грузов, холодильные камеры общим объемом 240 куб.м и температурным режимом от +10°C до –18°C.\n\nСклады, оснащенные всеми видами техники для проведения погрузочно-разгрузочных работ, по техническим и производственным параметрам соответствуют международным требованиям."
+                android:textColor="@color/whity"
+                android:paddingTop="30sp"
+                android:paddingLeft="30sp"
+                android:layout_marginBottom="30sp"
+                android:paddingRight="70sp"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView121" />
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView41"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Общая территория существующего грузового терминала в Международном аэропорту Алматы составляет 5,5 га."
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView88"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView1"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="Отапливаемость крытый склад 'А' площадью 20000 м2"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView2"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Прирельсовый склад 2700 м2"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView2"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView4"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Сейфы для хранения ценного груза, холодильные камеры общим объемом 240м3 и температурным режимом от +10С° до -18С°"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView4"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView5"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Современная система видеонаблюдения"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView5"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView6"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Многофункциональное программное обеспечение учета грузов"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView6"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView7"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Электронный обмен сообщениями стандарта E-freight"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView7"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView3"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Палетные/контейнерные перегружатели, производство компании TREPEL"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView3"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

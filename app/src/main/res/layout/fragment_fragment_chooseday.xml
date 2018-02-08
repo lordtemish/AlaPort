@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/reldialog"
+    tools:context="com.dynamica.alaport.fragment_chooseday"
+    android:onClick="arrtrue"
+    android:background="@drawable/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/arrs2"
+        android:background="@drawable/mybutton"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_above="@+id/arrs1"
+        android:layout_alignParentStart="true">
+
+        <!--  <Button
+              android:text="@string/arrivalrus"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/mybutton"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:id="@+id/button5"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true" />-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/arrivalrus"
+            android:id="@+id/butt3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/whity"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="13dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:onClick="arrtrue"
+        android:id="@+id/arrs"
+        android:background="@drawable/whiteutton"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_above="@+id/arrs2"
+        android:layout_alignParentStart="true">
+
+        <!--  <Button
+              android:text="@string/arrivalrus"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/mybutton"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:id="@+id/button5"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/arrivalrus"
+            android:id="@+id/butt1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20sp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:text="TextView"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="11dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="11dp"
+        android:onClick="arrtrue"
+        android:layout_marginTop="10sp"
+        android:id="@+id/arrs1"
+        android:background="@drawable/whiteutton"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <!--  <Button
+              android:text="@string/arrivalrus"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/mybutton"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:id="@+id/button5"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true" />-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/arrivalrus"
+            android:id="@+id/butt"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20sp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:id="@+id/textView21"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

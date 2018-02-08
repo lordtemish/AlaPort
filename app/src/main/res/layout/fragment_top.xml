@@ -1,0 +1,228 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.dynamica.alaport.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/topLinear"
+        android:orientation="vertical"
+        android:background="#939393"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer">
+
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:onClick="CloseDr"
+                android:layout_marginRight="10sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" >
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:onClick="CloseDr"
+                    android:id="@+id/opDr"
+                    android:layout_gravity="center"
+                    android:background="@drawable/onclose"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:textSize="17dp"
+                android:textColor="@color/whity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TableName"
+                android:text="Онлайн Табло"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/relar"
+            android:background="@color/blueDrawer" >
+
+            <TextView
+                android:text="@string/arrivalrus"
+                android:textColor="@color/whity"
+                android:gravity="center"
+                android:textSize="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arrivalsTop"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4" />
+
+            <TextView
+                android:text="в Алматы"
+                android:layout_marginLeft="2dp"
+                android:textSize="13dp"
+                android:textColor="@color/whity"
+                android:fontFamily="sans-serif-light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/AlmatyTop"
+                android:layout_alignBaseline="@+id/arrivalsTop"
+                android:layout_alignBottom="@+id/arrivalsTop"
+                android:layout_toEndOf="@+id/arrivalsTop" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                app:srcCompat="@drawable/untitle"
+                android:id="@+id/imageView4"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:background="@drawable/plandeps"
+                android:id="@+id/imageView5"
+                android:layout_marginEnd="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer" >
+            <LinearLayout
+                android:id="@+id/linday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                app:srcCompat="@drawable/untitle"
+                android:id="@+id/imageView6"
+                android:layout_gravity="center"
+              />
+
+            <TextView
+                android:text="Сегодня"
+                android:textColor="@color/whity"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                />
+
+            <TextView
+                android:text="23.06.2017"
+                android:layout_marginStart="2dp"
+                android:layout_gravity="center"
+                android:textSize="13sp"
+                android:textColor="@color/whity"
+                android:fontFamily="sans-serif-light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/timeview"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="3dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="13dp"
+                    app:srcCompat="@drawable/arrowdown"
+                    android:id="@+id/imageView7"
+
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:text="14:00"
+                    android:textColor="@color/whity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13"
+                    android:textSize="17dp"
+
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--    <ListView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/topView"
+               android:background="@color/whity"/>-->
+        <RelativeLayout
+            android:id="@+id/relTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:id="@+id/swipeTop"
+                android:layout_height="match_parent"
+                >
+            <android.support.v7.widget.RecyclerView
+                android:background="#e9e9e9"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/topView"
+                android:scrollbars="vertical"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/topfragments"
+                class="com.dynamica.alaport.DialogTopFragment"/>
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.dynamica.alaport.fragment_chooseday"
+                android:id="@+id/fragment"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.dynamica.alaport.TimeFragment"
+                android:id="@+id/fragment2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+            <FrameLayout
+                android:id="@+id/frameProg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+            </FrameLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

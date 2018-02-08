@@ -1,0 +1,255 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.Fragment.AirdromFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"  />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="100sp"
+                android:layout_marginTop="20sp">
+
+                <TextView
+                    android:text="Аэродромная служба осуществляет  выполнение комплекса мероприятий по  поддержанию летного поля аэродрома,  перрона и стоянок для ВС в постоянной  эксплуатационной готовности для взлета,  посадки, руления и стоянки воздушных судов."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/whity"
+                    android:id="@+id/textView102"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="27dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20sp"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingRight="50sp"
+                    android:paddingLeft="30sp"
+                    android:textColor="#222"
+                    android:text="Общая площадь аэродромных  покрытий составляет\n4 589 731 кв.м. "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:id="@+id/textView103" />
+
+                <TextView
+                    android:text="Из них:"
+                    android:paddingLeft="40sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView105" />
+
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redline"
+                        android:layout_gravity="center"
+                        android:id="@+id/imageView41"
+                        android:layout_weight="20" />
+
+                    <TextView
+                        android:layout_marginLeft="10sp"
+                        android:text="Площадь под ВПП - 563 000,00"
+                        android:textColor="#222"
+                        android:textSize="13sp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView88"
+                        android:layout_weight="2" />
+                </LinearLayout>   <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redline"
+                        android:layout_gravity="center"
+                        android:id="@+id/imageView42"
+                        android:layout_weight="20" />
+
+                    <TextView
+                        android:layout_marginLeft="10sp"
+                        android:text="Площадь под РД – 128 250,00"
+                        android:textColor="#222"
+                        android:textSize="13sp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView89"
+                        android:layout_weight="2" />
+                </LinearLayout><LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redline"
+                        android:layout_gravity="center"
+                        android:id="@+id/imageView43"
+                        android:layout_weight="20" />
+
+                    <TextView
+                        android:layout_marginLeft="10sp"
+                        android:text="Площадь МС, дороги, служ. территории. – 628 421,00"
+                        android:textColor="#222"
+                        android:textSize="13sp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView90"
+                        android:layout_weight="2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redline"
+                        android:layout_gravity="center"
+                        android:id="@+id/imageView44"
+                        android:layout_weight="20" />
+
+                    <TextView
+                        android:layout_marginLeft="10sp"
+                        android:text="Площадь под грунтовкой – 3 270 000,00"
+                        android:textColor="#222"
+                        android:textSize="13sp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView91"
+                        android:layout_weight="2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redline"
+                        android:layout_gravity="center"
+                        android:id="@+id/imageView45"
+                        android:layout_weight="20" />
+
+                    <TextView
+                        android:layout_marginLeft="10sp"
+                        android:text="Площадь под стоянки и базирование 21,00"
+                        android:textColor="#222"
+                        android:textSize="13sp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView92"
+                        android:layout_weight="2" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="40sp"
+                    android:paddingLeft="30sp"
+                    android:text="В аэропорту имеется 2
+взлетно-посадочных полосы:\n\nПервая - 4400м х 60м\nВторая - 4500м х 60м"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView106" />
+
+                <TextView
+                    android:layout_marginBottom="30sp"
+                    android:paddingLeft="30sp"
+                    android:paddingTop="30sp"
+                    android:paddingRight="40sp"
+                    android:textSize="15sp"
+                    android:textColor="#333"
+                    android:text="Вторая ВПП была построена в 2008 году и
+она оснащена светосигнальной системой,
+соответствующей 3Б категории по
+международным стандартам ИКАО. ВПП
+05L/23R является самой длиной полосой в
+Средней Азии и входит в Топ 20 самых
+длинных ВПП мира.\n\nВ 1998 году была смонтирована новая
+светосигнальная система взлета и посадки
+воздушных судов фирмы ABB, которая
+обеспечивает посадку, руление и взлет
+воздушных судов: СМК-232- по
+метеоминимуму по II категории ICAO; СМК-
+52- по метеоминимуму по I категории ICAO.\n\nВ декабре 2011 г. группой специалистов
+Межгосударственного авиационного
+комитета был присвоен  Сертификат
+аэродрома для полетов в условиях III B
+категории ICAO."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView107" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dynamica.alaport.SettingsFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#004083"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer">
+
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/whity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rasdr"
+            android:text="Настройки"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:onClick="CloseDr"
+                android:layout_marginRight="10sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" >
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:onClick="CloseDr"
+                    android:id="@+id/opDr"
+                    android:layout_gravity="center"
+                    android:background="@drawable/onclose"
+                    />
+            </FrameLayout>
+
+</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp">
+
+            <TextView
+                android:text="Push уведомления"
+                android:textSize="17sp"
+                android:textColor="@color/whity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/switch1"
+                style="@style/SCBSwitch"/>
+
+        </RelativeLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#517dac">
+
+        </FrameLayout>
+        <TextView
+            android:text="Язык интерфейса"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:textSize="15sp"
+            android:textColor="#5883af"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radgroup">
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="100sp"
+                    android:text="Қазақша"
+                    android:id="@+id/kz"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="#517dac" android:layout_marginLeft="100sp" />
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:textColor="@color/white"
+                android:layout_marginLeft="100sp"
+                android:text="Русский"
+                android:id="@+id/rus"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="#517dac" android:layout_marginLeft="100sp" />
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="match_parent"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:layout_height="50sp"
+                android:layout_marginLeft="100sp"
+                android:textColor="@color/white"
+                android:text="English"
+                android:id="@+id/eng"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blueDrawer">
+
+        <TextView
+            android:textSize="25sp"
+            android:textColor="@color/whity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/raspNamr"
+            android:text="Настройки"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/openDr"
+            android:onClick="CloseDr"
+            android:background="@drawable/onclose"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>

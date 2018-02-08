@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="5dp"
+    android:id="@+id/reltoprow"
+    android:background="@color/blueDrawer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp">
+
+        <TextView
+            android:text="1935"
+            android:textSize="20sp"
+            android:textColor="@color/whity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView67"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="37dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:background="@drawable/circle"/>
+            <FrameLayout
+                android:layout_width="1sp"
+                android:layout_marginLeft="5sp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary11A"></FrameLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="20sp"
+            android:layout_marginBottom="10sp">
+
+            <TextView
+                android:text="Аэропорт был создан \n вчера"
+                android:textColor="@color/whity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView68"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

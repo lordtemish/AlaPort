@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.Fragment.TransitPassengerFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10sp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_marginTop="10sp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/logoonblack"
+                    android:id="@+id/imageView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="@string/transitbold"
+                android:layout_width="match_parent"
+                android:textSize="13sp"
+                android:textColor="#333"
+                android:paddingLeft="30sp"
+                android:paddingRight="90sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView128" />
+            <TextView
+                android:text="1. Транзитные и трансферные пассажиры с дальних
+стоянок доставляются вместе с другими пассажирами
+в общий зал международных прилетов на автобусе,
+затем следуя по указателям проходят в транзитный зал
+для ожидания. Посадка на следующий рейс
+осуществляется через общий зал ожидания вылета
+международных рейсов на втором этаже.\n\n\n2. Транзитные и трансферные пассажиры прибывшие
+по телескопическим трапам с другими пассажирами
+спускаются в общий зал международных прилетов по
+лестнице или по лифту, затем следуя по указателям
+проходят в транзитный зал для ожидания. Посадка на
+следующий рейс осуществляется через общий зал
+ожидания вылета международных рейсов на втором
+этаже."
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:textColor="#333"
+                android:paddingLeft="30sp"
+                android:paddingRight="10sp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView129" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

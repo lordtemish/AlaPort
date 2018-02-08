@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/blueDrawer"
+    android:orientation="vertical"
+    android:id="@+id/activity_alaport_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dynamica.alaport.AlaportInfoActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blueDrawer">
+  <!--      <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/openDr"
+            android:onClick="CloseDr"
+            android:background="@drawable/onclose"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" /> -->
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/whity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="30sp"
+            android:paddingRight="30sp"
+            android:id="@+id/raspNamr"
+            android:text="@string/raspisanie"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:id="@+id/backDr1"
+            android:layout_alignParentStart="true" >
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="22dp"
+            android:gravity="center"
+            android:id="@+id/backDr"
+            android:background="@drawable/backr"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="15sp"
+           />
+        </FrameLayout>
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameal">
+   <!-- <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5sp"
+        android:name="com.dynamica.alaport.HistoryFragment"
+        android:id="@+id/fragment4"
+        /> -->
+    </FrameLayout>
+</LinearLayout>

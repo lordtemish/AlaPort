@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.HealthyFragment">
+
+    <LinearLayout
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer">
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:onClick="CloseDr"
+                android:layout_marginRight="10sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" >
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:onClick="CloseDr"
+                    android:id="@+id/opDr"
+                    android:layout_gravity="center"
+                    android:background="@drawable/onclose"
+                    />
+            </FrameLayout>
+            <TextView
+                android:textSize="17dp"
+                android:textColor="@color/whity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TableName"
+                android:text="Полезное"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="@color/blueDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20sp">
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="100sp"
+                app:srcCompat="@drawable/logo"
+                android:id="@+id/imageView28"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:background="#fff"
+            android:id="@+id/healthyRec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</FrameLayout>

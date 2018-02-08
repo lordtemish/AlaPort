@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.dynamica.alaport.StartActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <Button
+                android:textColor="@color/whity"
+                android:text="Пропустить"
+                android:textSize="10dp"
+                android:padding="@dimen/activity_vertical_margin"
+                android:onClick="butClick"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:textColorLink="#9fc2e7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_gravity="bottom"
+                android:background="@drawable/circle"
+                android:padding="@dimen/activity_vertical_margin"
+                android:onClick="FirstPage"
+                android:layout_marginLeft="5dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:id="@+id/but0"
+                />
+            <Button
+                android:layout_gravity="bottom"
+                android:background="@drawable/circle"
+                android:padding="@dimen/activity_vertical_margin"
+                android:onClick="SecondPage"
+                android:layout_marginLeft="5dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:id="@+id/but1"
+                />
+            <Button
+                android:layout_gravity="bottom"
+                android:background="@drawable/circle"
+                android:padding="@dimen/activity_vertical_margin"
+                android:onClick="ThirdPage"
+                android:layout_marginLeft="5dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:id="@+id/but2"
+                />
+            <Button
+                android:layout_gravity="bottom"
+                android:background="@drawable/circle"
+                android:padding="@dimen/activity_vertical_margin"
+                android:onClick="FourthPage"
+                android:layout_marginLeft="5dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:id="@+id/but3"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>    <RelativeLayout
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="44sp"
+    android:layout_marginStart="10sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</RelativeLayout>

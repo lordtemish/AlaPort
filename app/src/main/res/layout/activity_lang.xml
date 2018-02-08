@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lang"
+    android:layout_width="match_parent"
+    android:background="#004ea0"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dynamica.alaport.Lang">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/arrow"
+            android:onClick="destroyThis"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView3" />
+
+        <Button
+            android:text="Войти"
+            android:background="@color/blueDrawer"
+            android:onClick="destroyThis"
+            android:textColor="@color/whity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_marginEnd="5sp"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_toStartOf="@+id/imageView3"
+            android:layout_alignParentBottom="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <RadioButton
+                android:text="Қаз"
+                android:onClick="KazL"
+                android:button="@android:color/transparent"
+                android:textColor="@color/whity"
+                android:background="@drawable/customradio_background"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:id="@+id/radioButton3"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="Рус"
+                android:onClick="RusL"
+                android:gravity="center"
+                android:button="@android:color/transparent"
+                android:background="@drawable/customradio_background"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:checked="true"
+                android:id="@+id/radioButton2"
+                android:textColor="@color/whity"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="ENG"
+                android:onClick="EngL"
+                android:gravity="center"
+                android:button="@android:color/transparent"
+                android:background="@drawable/customradio_background"
+                android:layout_width="wrap_content"
+                android:textColor="@color/whity"
+                android:layout_height="50dp"
+                android:id="@+id/radioButton"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginTop="15dp"
+            android:id="@+id/imageView2"
+            android:layout_marginEnd="117dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/button" />
+
+        <CheckBox
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:layout_marginStart="53dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/checkBox">
+
+            <TextView
+                android:text="Я полностью согласен и принимаю"
+                android:textColor="#b5d4ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:text="@string/usersogl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#63c3ff"
+                android:id="@+id/textView8"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/checkBox" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

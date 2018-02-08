@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="dark">#99001445</color>
+    <color name="colorPrimaryBlueDark">#004389</color>
+    <color name="colorPrimary11B">#1257a0</color>
+    <color name="colorPrimary11A">#96bff1</color>
+    <color name="colorPrimary11C">#517dac</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="whity">#f6fcff</color>
+    <color name="black">#222</color>
+    <color name="white">#fff</color>
+    <color name="greyy">#bac4d4</color>
+    <color name="grey">#dfdfdf</color>
+    <color name="blueDrawer">#004ea0</color>
+    <color name="red">#da0f38</color>
+    <color name="goodorange">#f17c66</color>
+
+    <color name="map11">#96a6f5</color>
+    <color name="map12">#75ace6</color>
+    <color name="map13">#80bdc4</color>
+    <color name="map14">#b7d9f7</color>
+    <color name="map15">#78a2cf</color>
+    <color name="map16">#dfbf96</color>
+    <color name="map17">#a16879</color>
+    <color name="map18">#5656d8</color>
+    <color name="map19">#d06fd0</color>
+
+    <color name="map21">#78a2cf</color>
+    <color name="map22">#75ace6</color>
+    <color name="map23">#b7d9f7</color>
+    <color name="map24">#96a6f5</color>
+    <color name="map25">#80bdc4</color>
+    <color name="map26">#d06fd0</color>
+    <color name="map27">#5656d8</color>
+    <color name="map28">#a16879</color>
+    <color name="map29">#dfbf96</color>
+</resources>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="usersogl"><u>Пользовательское соглашение</u></string>
+    <string name="delete">Удалить</string>
+    <string name="arrivalrus"><b>Прилеты</b></string>
+    <string name="medicalbold"><b>В аэропорту города Алматы  имеется медицинская служба,  которая работает в  круглосуточном режиме </b></string>
+    <string name="garson"><b>Правила организации обслуживания
+пассажиров в аэропортах Республики
+Казахстан\n\n1. Общие положения</b></string>
+    <string name="medicalall">В составе:\n\n
+<b>- 5 врачей</b>
+<b>- 5 фельдшеров</b>
+<b>- 5 дежурных комнат- матери и ребенка</b>
+<b>- 4 водителя скорой помощи</b>\n\n
+Оснащение:\n\n<b>- 6 инвалидных кресло – каталок, из них
+- 4 узкие для доставки до посадочного
+места в воздушном судне
+ 2 машины скорой помощи
+(Мерседес-Бенс, Хюндай 2013 г\в)</b>\n\n
+Все услуги предоставляются бесплатно.\n\n
+Контактные телефоны 2703-030, 2703-490
+Электронный адрес: medoffice@alaport.com
+</string>
+    <string name="limitlug"><b>Опасные предметы и вещества,
+запрещенные к перевозке в
+салонах гражданских ВС:</b></string>
+    <string name="aviacashrus">Наша компания предоставляет разнообразные
+виды туристических услуг - пляжный и
+экскурсионный отдых, санаторно-курортное
+лечение и спортивно-развлекательные туры и
+предлагает разнообразные туристские пакеты
+услуг: корпоративный отдых, индивидуальные и
+групповые туры, VIP – обслуживание.</string>
+    <string name="luggagerule"><b>О порядке производства контрольной проверки техническими средствами, досмотра пассажиров и изъятия веществ и предметов, запрещенных к провозу награжданских ВС</b></string>
+    <string name="luggageruleeng"><b>On Approval of Rules For Air Carriage of Passengers, Baggage and Cargo on the Republic of Kazakhstan’s Airlines
+Extract from the Order by Chairman of Civil Aviation Committee under Ministry of Transport and Communications, Republic of Kazakhstan No. 182 as of April 25, 2003 (with amendments as of 04.01.2006):
+</b></string>
+    <string name="luggagerulekz"><b>Қазақстан Республикасы әуе жолдарында жолаушыларды, багаж бен жүкті тасымалдау ережелері
+Қазақстан Республикасы Көлік және коммуникация министрлігі Азаматтық авиация комитеті төрағасының 2003 жылғы 25 сәуірдегі №182 бұйрығының көшірмесі:
+</b></string>
+
+    <string name="aviapas"><b>В пассажирском терминале для  авиапассажиров  предоставляются  следующие услуги:</b></string>
+    <string name="transitbold"><b>Уважаемые жители и гости Южной Столицы, доводим до вашего сведения, что начиная с 27 апреля 2011 года в Международном аэропорту Алматы изменилась процедура оформления транзитных и трансферных пассажиров. Новая схема передвижения обеспечивает удобство для пассажиров и соответствует международным стандартам обслуживания пассажиров международных рейсов.</b></string>
+    <string name="almatybold"><b>Алматы</b></string>
+    <string name="searchtick"><b>Поиск</b> рейсов</string>
+    <string name="date"><b>Сегодня</b> 23.06.2017</string>
+    <string name="raspisanie">Расписание</string>
+    <string name="app_name">Alaport</string>
+    <string name="title_top">Top Fragment</string>
+    <string-array name="planes">
+        <item>AirBus</item>
+        <item>Boeing 200</item>
+    </string-array>
+    <string-array name="titles">
+        <item>Онлайн табло</item>
+        <item>Расписание</item>
+        <item>Напоминания</item>
+        <item>Заявка на VIP обслуживание</item>
+        <item>Авиакассы</item>
+        <item>План аэропорта</item>
+        <item>Аэропорт</item>
+        <item>Полезное</item>
+        <item>Настройки</item>
+    </string-array>
+    <string-array name="titleseng">
+        <item>Online table</item>
+        <item>Schedule</item>
+        <item>Notifications</item>
+        <item>Request for VIP service</item>
+        <item>Ticket office</item>
+        <item>Airport map</item>
+        <item>Airport</item>
+        <item>Useful</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="titleskaz">
+        <item>Онлайн табло</item>
+        <item>Кесте</item>
+        <item>Хабарламалар</item>
+        <item>VIP қызметке тапсырыс беру</item>
+        <item>Авиакассалар</item>
+        <item>Әуежайдың картасы</item>
+        <item>Әуежай</item>
+        <item>Қызметтік бағдарлама</item>
+        <item>Параметрлері</item>
+    </string-array>
+
+    <string name="action_create_order">Create Order</string>
+    <string-array name="pasta">
+        <item>Spaghetti Bolognese</item>
+        <item>Lasagne</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rulesru">
+    </string>
+    <string name="ruleseng">
+</string>
+</resources>

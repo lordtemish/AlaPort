@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dynamica.alaport.NotificationFragment"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blueDrawer">
+
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/whity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/raspNamr"
+            android:text="Напоминания"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:onClick="CloseDr"
+            android:layout_marginRight="10sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" >
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/opDr"
+                android:onClick="CloseDr"
+                android:layout_gravity="center"
+                android:background="@drawable/onclose"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/notRec"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

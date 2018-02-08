@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.AviaGazFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueDrawer"
+        android:padding="10sp">
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView28"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:text="АО «Международный аэропорт Алматы» является единственным поставщиком авиатоплива в аэропорту Алматы. Для высококачественного хранения топлива на  территории аэропорта установлены модернизированные резервуары, в том числе вместимостью  5000, 3000 и 2000 кубических метров с антикоррозийной обработкой, что позволяет повысить чистоту топлива.  Для более полного соответствия  мировым стандартам по качеству авиационной топлива, служба АвиаГСМ аэропорта Алматы обновила фильтры и сливно-наливную эстакаду, дополнительно прибыли новые топливозаправщики в 2010 году."
+            android:textSize="13sp"
+            android:textColor="@color/whity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView76"
+            android:layout_marginStart="28dp"
+            android:layout_below="@+id/imageView28"
+            android:paddingEnd="20sp"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</FrameLayout>

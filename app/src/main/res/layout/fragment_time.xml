@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/reldialog"
+    android:onClick="arrtrue"
+    android:background="@drawable/transparent"
+    tools:context="com.dynamica.alaport.TimeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:divider="?android:dividerHorizontal"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:text="CANCEL"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button4"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/button3"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:text="RESET" />
+
+            <TextView
+                android:text="SET"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button5"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/linearLayout2">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:id="@+id/imageView16"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/arrowdoup"
+                android:id="@+id/imageView1666"
+                />
+            </FrameLayout>
+        <TextView
+            android:text="14:00"
+            android:layout_width="match_parent"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView15"
+            android:layout_weight="2">
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/arrowup"
+            android:id="@+id/imageView1555"
+            />
+        </FrameLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

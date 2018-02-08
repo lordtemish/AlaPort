@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/vip_wall"
+    tools:context="com.dynamica.alaport.Fragment.BlankFragment">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:id="@+id/textView157"
+            android:textSize="15sp"
+            android:textColor="@color/whity"/>
+    <LinearLayout
+        android:id="@+id/backLayout"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            app:srcCompat="@drawable/backr" />
+
+        <TextView
+            android:id="@+id/textView156"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+
+            android:text="Вернуться назад" />
+    </LinearLayout>
+
+</RelativeLayout>

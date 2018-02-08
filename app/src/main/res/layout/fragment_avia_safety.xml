@@ -1,0 +1,234 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.Fragment.AviaSafetyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueDrawer"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="Техническая оснащенность  службы досмотра."
+                android:layout_width="match_parent"
+                android:layout_marginTop="5sp"
+                android:paddingLeft="30sp"
+                android:paddingRight="80sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whity"
+                android:textSize="18sp"
+                android:layout_marginBottom="30sp"
+                android:id="@+id/textView108" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5sp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                android:text="Интроскопов"
+                android:textColor="@color/whity"
+                android:textSize="15sp"
+                android:paddingLeft="30sp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView109" />
+                <TextView
+                android:text="42 ед."
+                    android:gravity="end"
+                    android:paddingRight="20sp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView110"
+
+                android:layout_weight="3" />
+        </LinearLayout>
+            <FrameLayout
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:background="@color/colorPrimary11A" android:layout_marginLeft="30sp" />
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:text="Стационарных металлодетекторов"
+                    android:textColor="@color/whity"
+                    android:textSize="15sp"
+                    android:paddingLeft="30sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView111" />
+                <TextView
+                    android:text="31 ед."
+                    android:gravity="end"
+                    android:paddingRight="20sp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView112"
+
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:background="@color/colorPrimary11A" android:layout_marginLeft="30sp" />
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:text="Ручных металлоискателей"
+                    android:textColor="@color/whity"
+                    android:textSize="15sp"
+                    android:paddingLeft="30sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView113" />
+                <TextView
+                    android:text="51 ед."
+                    android:gravity="end"
+                    android:paddingRight="20sp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView114"
+
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:background="@color/colorPrimary11A" android:layout_marginLeft="30sp" />
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:text="Scanner SECURE-100 "
+                    android:textColor="@color/whity"
+                    android:textSize="15sp"
+                    android:paddingLeft="30sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView115" />
+                <TextView
+                    android:text="2 ед."
+                    android:gravity="end"
+                    android:paddingRight="20sp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView116"
+
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:background="@color/colorPrimary11A" android:layout_marginLeft="30sp" />
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30sp"
+                    android:text="HEDT-1000"
+                    android:textColor="@color/whity"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:text="10 ед."
+                    android:gravity="end"
+                    android:paddingRight="20sp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView118"
+
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:background="@color/white"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginBottom="30sp"
+                android:text="Главной целью деятельности САБ является обеспечение авиационной безопасности и недопущение совершения актов незаконного вмешательства в деятельность АО «Международный аэропорт Алматы».\n\nДосмотр пассажиров и членов экипажей ВС, ручной клади, багажа, грузов, почты и обслуживающего персонала (далее - досмотр) – это комплекс мероприятий с применением технических или других средств, предназначенных для обнаружения оружия, взрывчатых веществ, других опасных устройств и запрещенных к провозу предметов которые могут быть использованы для совершения акта незаконного вмешательства."
+                android:background="#fff"
+                android:textColor="#333"
+                android:layout_marginTop="10sp"
+                android:paddingStart="30sp"
+                android:paddingEnd="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView119" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

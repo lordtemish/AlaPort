@@ -1,0 +1,427 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dynamica.alaport.Fragment.PassangerTransportFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueDrawer"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"  />
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="Служба организации  пассажирских перевозок  предоставляет следующие услуги:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:paddingTop="5sp"
+                android:paddingLeft="30sp"
+                android:layout_marginBottom="30sp"
+                android:paddingRight="50sp"
+                android:id="@+id/textView105" />
+
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView41"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Информационные табло  вылетов/прилетов"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView88"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView42"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Регистрация пассажиров на  международные авиарейсы"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView89"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView43"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Регистрация пассажиров на внутренние  авиарейсы "
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView90"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView44"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Магазины DutyFree, Французский дом,  Сувениры, и др. "
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView91"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView45"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Тележки для перевоза багажа и ручной  клади"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView92"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView46"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Поиск потерянного багажа"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView93"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView47"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Кассы продажи авиаперевозок"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView94"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <TextView
+                android:text="Существующие здания на территории аэропорта г. Алматы."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:paddingTop="5sp"
+                android:paddingLeft="30sp"
+                android:layout_marginBottom="30sp"
+                android:paddingRight="50sp"
+                android:id="@+id/textView104" />
+
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView60"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Здание VIP Южный\nОбщая площадь помещений 695 кв. м."
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView11"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView61"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Здание предназначено для встреч и проводов официальных делегаций"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView12"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView62"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Здание Бизнес-терминал (с галереей)\nПолезная площадь 2761,6 кв. м. Здание предназначено для вылета пассажиров VIP категории."
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView13"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView63"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Здание старого междунар. прилета\nПолезная площадь 2956,2 кв. м. "
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView14"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView64"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Здание используется под служебные помещение АО «МАА»"
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView15"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30sp"
+                android:layout_marginBottom="30sp"
+                android:paddingRight="50sp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/redline"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageView65"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:text="Здание пассажирского терминала\nОбщая площадь 28 963 кв. м. Здание предназначено для обслуживания пассажиров и обработки багажа международных и внутренних рейсов."
+                    android:textColor="@color/whity"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView16"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

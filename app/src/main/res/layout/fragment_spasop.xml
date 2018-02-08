@@ -1,0 +1,413 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dynamica.alaport.Spasop">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/blueDrawer"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView28"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Главной задачей Службы противопожарного  и аварийно-спасательного обеспечения  полетов Международного аэропорта Алматы  является своевременное оказание помощи  воздушным судам авиакомпаний при  аварийных ситуациях . На вооружении службы  находится самая современная аварийно- спасательная и противопожарная техника,  обладающая высокими динамическими  качествами, оснащенная  высокотехнологичным пожарно-техническим  оборудованием и способная обеспечить  максимальный уровень противопожарной  защиты аэродрома в соответствии с  требованиями ИКАО:"
+                    android:textSize="13sp"
+                    android:textColor="@color/whity"
+                    android:layout_width="270sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView76"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/whole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50sp"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:paddingBottom="20sp"
+                android:paddingTop="5sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView77"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Стартовая аварийно-спасательная станция на 1 автомашину"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView78"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Аварийно-спасательная станция на ВПП-2"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Пневмотканевые подъемники, к-т"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView80"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Эвакуационная тележка 90-2200"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Металлосетчатые дорожки, к-т"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView82"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Пожарная машина Cobra"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView83"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Аэродромная пожарная машина АА-8.0/55"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eight"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView84"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="КАМАЗ 43118"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nine"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Пожарный автомобиль АСО-20 на шасси автомобиля КАМАЗ 43114"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eleven"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView39"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Пожарный аэродр. автомоб. АА-12/60 ИВЕКО"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/twelve"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView40"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Микроавтобус ГАЗ 322131-95"
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ten"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="50sp">
+
+                    <ImageView
+                        android:id="@+id/imageView41"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:src="@drawable/redline" />
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:text="Пожарная машина АА-60(7310) ягач АТС-59."
+                        android:textColor="#222"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

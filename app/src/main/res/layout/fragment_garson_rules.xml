@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dynamica.alaport.Fragment.GarsonRulesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/garson"
+                android:textSize="18sp"
+                android:paddingLeft="30sp"
+                android:paddingTop="20sp"
+                android:paddingRight="30sp"
+                android:textColor="#222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView144" />
+
+            <TextView
+                android:layout_marginTop="30sp"
+                android:paddingLeft="30sp"
+                android:paddingRight="10sp"
+                android:paddingBottom="30sp"
+                android:textColor="#222"
+                android:text="1. Настоящие Правила организации обслуживания пассажиров в аэропортах Республики Казахстан (далее - Правила) разработаны в соответствии с Законом Республики Казахстан от 15 июля 2010 года «Об использовании воздушного пространства Республики Казахстан и деятельности авиации».\n\n2. Настоящие Правила устанавливают порядок и организации обслуживания пассажиров в аэропортах Республики Казахстан и направлены на обеспечение безопасного и качественного обслуживания пассажиров. \n\n3. Термины и определения, используемые в настоящих Правилах: \n\n1) агент - физическое или юридическое лицо, представляющее авиакомпанию, аэропорт, которое уполномочено непосредственно выступать от его имени при выполнении всех процедур, связанных с прибытием, отправлением и оформлением воздушного судна данной авиакомпании, экипажа, пассажиров, багажа, груза, почты и бортприпасов; \n\n2) графа «изменение в последнюю минуту» сводно-загрузочной ведомости (далее - графа «LMC») - графа, в которой указываются изменения в последнюю минуту количества пассажиров, багажа;"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView147" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

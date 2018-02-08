@@ -1,0 +1,407 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dynamica.alaport.AviaCashFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:background="@color/whity"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blueDrawer">
+
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10sp"
+                android:onClick="CloseDr"
+                android:layout_marginRight="10sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" >
+                <Button
+                    android:onClick="CloseDr"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/opDr"
+                    android:layout_gravity="center"
+                    android:background="@drawable/onclose"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:textSize="17dp"
+                android:textColor="@color/whity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TableName"
+                android:text="Авиакассы"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/blueDrawer">
+
+                <TextView
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="10sp"
+                    android:text="@string/aviacashrus"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView23"
+                    android:textSize="12sp"
+                    android:textColor="@color/whity"
+                    android:layout_below="@+id/imageView17"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp" />
+
+                <ImageView
+                    android:layout_width="120sp"
+                    android:layout_height="120sp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView17"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/textView23" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="100sp"
+                        android:layout_height="50sp"
+                        app:srcCompat="@drawable/phone11"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="100sp"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_alignStart="@+id/imageView18">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView24"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/textView25"
+                                android:layout_alignBottom="@+id/textView25"
+                                android:layout_alignStart="@+id/textView33"
+                                android:gravity="start"
+                                android:text="Адрес"
+                                android:textColor="#c1c1c1"
+                                android:textSize="8sp" android:layout_weight="4"/>
+
+                            <LinearLayout
+                                android:layout_marginStart="10sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" android:layout_weight="1">
+                                <TextView
+                                    android:id="@+id/textView25"
+                                    android:layout_width="wrap_content"
+                                    android:gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:text="Городской Аэровокзал"
+                                    android:textColor="#4e4e4e"
+                                    android:textSize="8sp"
+                                    />
+                                <TextView
+                                    android:id="@+id/textView32"
+                                    android:layout_width="wrap_content"
+                                    android:gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:text="ул. Жибек Жолы 111,\nофис №2"
+                                    android:textColor="#4e4e4e"
+                                    android:textSize="8sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/textView33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:text="Телефоны"
+                                    android:textColor="#c1c1c1"
+                                    android:textSize="8sp"
+                                    android:layout_weight="4"/>
+                                <TextView
+                                    android:layout_marginStart="10sp"
+                                    android:id="@+id/textView34"
+                                    android:gravity="start"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+7 727 258 41 55"
+                                    android:textColor="#4e4e4e"
+                                    android:textSize="8sp" android:layout_weight="1"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/textView35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="Факс"
+                                android:textColor="#c1c1c1"
+                                android:textSize="8sp"
+                                android:layout_weight="4"/>
+                            <TextView
+                                android:id="@+id/textView36"
+                                android:layout_marginStart="10sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="+7 727 258 41 55"
+                                android:textColor="#4e4e4e"
+                                android:textSize="8sp"
+                                android:layout_weight="1"/>
+                        </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:id="@+id/textView37"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="start"
+                                        android:text="Эл. Почта"
+                                        android:textColor="#c1c1c1"
+                                        android:textSize="8sp"
+                                        android:layout_weight="4"/>
+
+                                    <TextView
+                                        android:id="@+id/textView38"
+                                        android:layout_marginStart="10sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="start"
+                                        android:text="appsales@alaport.com"
+                                        android:textColor="#4e4e4e"
+                                        android:textSize="8sp"
+                                        android:layout_weight="1"/>
+
+                                </LinearLayout>
+                                </LinearLayout>
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="100sp"
+                        android:layout_height="50sp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/phone11" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="100sp"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_alignStart="@+id/imageView19">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView54"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="Адрес"
+                                android:textColor="#c1c1c1"
+                                android:textSize="8sp"
+                                android:layout_weight="4" />
+
+                            <LinearLayout
+                                android:layout_marginStart="10sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" android:layout_weight="1">
+                                <TextView
+                                    android:id="@+id/textView55"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:text="Аэропорт Алматы"
+                                    android:textColor="#4e4e4e"
+                                    android:textSize="8sp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textView42"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:text="ул. Майлина 2"
+                                    android:textColor="#4e4e4e"
+                                    android:textSize="8sp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView43"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:text="Телефоны"
+                                    android:textColor="#c1c1c1"
+                                    android:textSize="8sp"
+                                    android:layout_weight="4"/>
+                                <TextView
+                                    android:id="@+id/textView44"
+                                    android:layout_marginStart="10sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+7 727 270 35 55"
+                                    android:textColor="#4e4e4e"
+                                    android:layout_gravity="start"
+                                    android:textSize="8sp"
+                                    android:layout_weight="1"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/textView45"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:text="Факс"
+                                    android:textColor="#c1c1c1"
+                                    android:textSize="8sp"
+                                    android:layout_weight="4"/>
+                                <TextView
+                                    android:id="@+id/textView46"
+                                    android:layout_marginStart="10sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:text="+7 727 388 85 74"
+                                    android:textColor="#4e4e4e"
+                                    android:textSize="8sp"
+                                    android:layout_weight="1"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:id="@+id/textView47"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="start"
+                                        android:text="Эл. Почта"
+                                        android:textColor="#c1c1c1"
+                                        android:textSize="8sp"
+                                        android:layout_weight="4"/>
+                                    <TextView
+                                        android:id="@+id/textView48"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="start"
+                                        android:layout_marginStart="10sp"
+                                        android:text="apsales@alaport.com"
+                                        android:textColor="#4e4e4e"
+                                        android:textSize="8sp"
+                                        android:layout_weight="1"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
